@@ -47,5 +47,20 @@ class Chess {
         }
         this._init(); 
     }
-    
+    _init() {
+        fetch(this.sourse)
+            .then(result => result.json())
+            .then(data => {                
+                    this.names.push(data.names);
+                    this.blackS.push(data.blackS);
+                    this.blackJ.push(data.blackJ);
+                    this.whiteJ.push(data.whiteJ);
+                    this.whiteS.push(data.whiteS);
+                    this._renderFigures();                
+            })
+    }
+    _renderFigures() {
+        let $cell = $('.cell');
+        
+    }
 }
