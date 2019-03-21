@@ -1,0 +1,26 @@
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px auto;    
+    width: 600px;
+    height: 600px;
+}
+
+.cell {
+    width: 58px;
+    height: 58px;
+    border: 1px solid #000;    
+}
+
+.cellLigth {
+        background-color: rgb(255,248,220);
+    }
+
+.cellDark {
+        background-color: brown;
+    }
+.cellWhite {
+        border: 1px solid transparent;
+        background-color: transparent;
+
+    }
