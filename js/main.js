@@ -1,5 +1,21 @@
-$(document).ready( ()=>{
+﻿$(document).ready( ()=>{
 
-    // доска
-    let board = new Chess('json/figures.json');
+    // Отобразить доску
+    let board = new Board('json/figures.json');
+
+    
+    
+    
+
+   
+
+
+
+    
+
+    
+    
+
+
+    
 })
